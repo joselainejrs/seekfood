@@ -1,0 +1,70 @@
+@media(max-width:411px){
+    .container-loginempresa header a{
+        text-decoration: none;
+        padding-top: 30px;
+    }
+
+    .container-loginempresa header .desconectar {
+        padding-top: 30px;
+        padding-left: 25px;
+    }
+
+    .container-loginempresa header .sair{
+        font-weight: bold;
+        font-family: 'Fira Sans', sans-serif;
+        color:#11263C;
+        font-size: 20px;
+    }
+    .container-loginempresa header .titulo{
+       
+        color:#11263C;
+        font-size: 28px;
+        text-align: center;
+        margin-bottom: 140px;
+        margin-top: 50px;
+    }  
+
+    .container-loginempresa header h1{
+        font-weight: normal;
+        font-family: 'Dosis', sans-serif;
+    }
+    .container-loginempresa .forms{
+        display: block;
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .icon{
+        color:#11263C;
+        position: absolute;
+        left: 30px;
+        padding: 10px;
+
+    }
+    .container-loginempresa header img{
+
+        margin:30px auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+
+    .container-loginempresa .final{
+        font-weight: bold;
+        font-family: 'Fira Sans', sans-serif;
+        color:#FC6011;
+        font-size: 20px;
+
+        padding-left: 120px;
+        margin-top: 250px;
+
+        text-decoration: none;
+    }
+
+    .container-loginempresa .final:hover{
+        text-decoration: underline;
+    }
+
+}

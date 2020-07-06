@@ -1,0 +1,77 @@
+@media(max-width:411px){
+    .container-cadastroempresa header a{
+        text-decoration: none;
+        padding-top: 30px;
+    }
+
+    .container-cadastroempresa header .desconectar {
+        padding-top: 30px;
+        padding-left: 25px;
+    }
+
+    .container-cadastroempresa header .sair{
+        font-weight: bold;
+        color:#11263C;
+    }
+    .container-cadastroempresa header .titulo{       
+        color:#11263C;
+        font-size: 23px;
+        text-align: center;
+        
+    }  
+
+    .container-cadastroempresa header h1{
+        font-family: 'Dosis', sans-serif;
+        font-weight: normal;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .container-cadastroempresa header .tex{
+        font-family: 'Dekko', cursive;
+        color:#526168;
+        font-size: 18px;
+        text-align: center;
+        margin-bottom: 100px;
+    }
+    .container-cadastroempresa .forms{
+        display: block;
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .icon{
+        color:#11263C;
+        position: absolute;
+        left: 30px;
+        padding: 10px;
+
+    }
+    .container-cadastroempresa header img{
+
+        margin:30px auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+
+    .container-cadastroempresa .final{
+        font-weight: bold;
+        font-family: 'Fira Sans', sans-serif;
+        color:#FC6011;
+        font-size: 20px;
+
+        padding-left: 145px;
+        margin-top: 130px;
+        
+
+        text-decoration: none;
+    }
+
+    .container-cadastroempresa .final:hover{
+        text-decoration: underline;
+    }
+
+}

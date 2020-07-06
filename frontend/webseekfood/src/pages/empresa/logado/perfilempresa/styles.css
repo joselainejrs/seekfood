@@ -1,0 +1,57 @@
+@media(max-width:411px){
+/* menu */
+
+    
+    .container-perfilempresa header .titulo{
+        color:#11263C;
+        font-size: 18px; 
+    }  
+    .container-perfilempresa header h1 {
+        font-family: 'Dosis', sans-serif;
+        font-weight: normal;
+    }
+   
+    .container-perfilempresa header .tex{
+        font-family: 'Dosis', sans-serif;
+        font-weight: normal;
+        color:#FC6011;
+        font-size: 18px;
+       
+    }
+    .container-perfilempresa .forms-dados{
+        display: block;
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+        width: 375px;
+    }
+
+    .container-perfilempresa .forms-dados .dados {
+        font-family: 'Dosis', sans-serif;
+        font-weight: normal;
+
+        margin: 40px 0;
+
+        font-size: 23px; 
+        color:#11263C;
+    }
+   
+    .container-perfilempresa .forms-dados p{
+        font-family: 'Darker Grotesque', sans-serif;
+        font-size: 25px;
+        color:#11263C;
+        padding: 5px;
+        margin: auto;
+    }
+    .container-perfilempresa .forms-dados .perfilendereco, .perfilcomplementares {
+        width: 359px;
+        border: 1px solid #B3C5CD;
+        box-sizing: border-box;
+        border-radius: 8px; 
+        margin:  20px auto ;
+
+    }
+
+  
+
+}

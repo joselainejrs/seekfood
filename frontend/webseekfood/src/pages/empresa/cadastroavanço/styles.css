@@ -1,0 +1,84 @@
+@media(max-width:411px){
+    .container-cadastroavanco header a{
+        text-decoration: none;
+        padding-top: 30px;
+    }
+
+    .container-cadastroavanco header .desconectar {
+        padding-top: 30px;
+        padding-left: 25px;
+    }
+
+    .container-cadastroavanco header .sair{
+        font-weight: bold;
+        font-family: 'Fira Sans', sans-serif;
+        color:#11263C;
+        font-size: 20px;
+    }
+
+
+    .container-cadastroavanco header .titulo{
+        color:#11263C;
+        font-size: 23px;
+        text-align: center;
+        
+    }  
+
+    .container-cadastroavanco header h1{
+        font-family: 'Dosis', sans-serif;
+        font-weight: normal;
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+
+    .container-cadastroavanco header .tex{
+        font-family: 'Dekko', cursive;
+        color:#526168;
+        font-size: 18px;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .container-cadastroavanco .forms{
+        display: block;
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+        width: 375px;
+    }
+
+    .icon{
+        color:#11263C;
+        position: absolute;
+        left: 30px;
+        padding: 10px;
+
+    }
+    .container-cadastroavanco header img{
+
+        margin:30px auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+
+    .container-cadastroavanco .final{
+        font-weight: bold;
+        font-family: 'Fira Sans', sans-serif;
+        color:#FC6011;
+        font-size: 20px;
+
+        padding-left: 145px;
+        margin-top: 130px;
+        
+
+        text-decoration: none;
+    }
+
+    .container-cadastroavanco .final:hover{
+        text-decoration: underline;
+    }
+
+   
+
+}

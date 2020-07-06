@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300;400;500;600;700;800;900&family=Dekko&family=Fira+Sans:wght@200&display=swap');
+@media(max-width:420px) {
+    * {
+        padding: 0;
+        margin: 0;
+    }
+    .menu {
+        width: 250;
+        height: 500px;
+        font-family: 'Darker Grotesque', sans-serif;
+        font-size: 20px;
+        background-color: #F0F5F5;
+    }
+    #check {
+        display: none;
+    }
+    .menu ul {
+        list-style: none;
+    }
+    .menu ul li {
+        width: 150px;
+        float: right;
+    }
+    .menu a {
+        text-decoration: none;
+    }
+    .menu #imagem {
+        float: right;
+        cursor: pointer;
+        padding: 15px;
+        position: absolute;
+        z-index: 1;
+    }
+
+
+    /*madrão de tela*/
+    .container {
+        background-color: #F0F5F5;
+        width: 100%;
+        height: 1000px;
+        margin: auto;
+    }
+    button {
+        width: 357px;
+        height: 50px;
+        background: #D1D8DB;
+        border: 1px solid #B3C5CD;
+        box-sizing: border-box;
+        border-radius: 8px;
+        display: block;
+        margin: 40px auto;
+        align-items: center;
+        justify-content: center;
+        font-size: 25px;
+        font-family: 'Darker Grotesque', sans-serif;
+        color: #11263C;
+        font-weight: bold;
+    }
+    /* LOGIN*/
+    .input-login {
+        width: 357px;
+        height: 50px;
+        border: 1px solid #B3C5CD;
+        box-sizing: border-box;
+        border-radius: 8px;
+        color: #11263C;
+        background-color: #F0F5F5;
+        font-size: 25px;
+        font-family: 'Darker Grotesque', sans-serif;
+        font-weight: bold;
+        margin: 10px auto;
+        padding-left: 60px;
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+    /* CADASTRO*/
+    .input-login-cadastro {
+        width: 357px;
+        height: 30px;
+        border: none;
+        box-sizing: border-box;
+        border-radius: 8px;
+        color: #11263C;
+        background-color: #F0F5F5;
+        font-size: 25px;
+        font-family: 'Darker Grotesque', sans-serif;
+        font-weight: bold;
+        margin: 10px auto;
+        padding-left: 60px;
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+    .input-login-um {
+        width: 359px;
+        height: 160px;
+        border: 1px solid #B3C5CD;
+        box-sizing: border-box;
+        border-radius: 8px;
+        margin: auto;
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+    .input-login-dois {
+        width: 359px;
+        height: 220px;
+        border: 1px solid #B3C5CD;
+        box-sizing: border-box;
+        border-radius: 8px;
+        margin: 15px auto;
+        color: #11263C;
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+    hr {
+        width: 275px;
+        margin-left: 55px;
+    }
+    .input-login-cadastro::-webkit-input-placeholder {
+        color: #11263C;
+    }
+    /* LOGIN*/
+    .input-login::-webkit-input-placeholder {
+        color: #11263C;
+    }
+}
